@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Acc</title>
+    <style>
+        h1{
+          font-family: "fantasy";
+          font-size: 25px;
+          text-align: center;
+          background: lightgrey;
+          }
+        h2{
+            font-family: "times new roman";
+            font-size: 20px;
+      }
+        form{
+          background-color: lightblue;
+          font-size: 18px;
+          }
+    </style>
+</head>
+<body>
+<div id="header">
+   <h1>SELAMAT DATANG</h1>
+  </div>
+<div id="content">
+    <div id="article_1">
+      <h2>Buat Akun Baru</h2>
+
+    <form name="input" action="detail_informasi.html" method="get">
+        First Name: <br>
+        <input type="text" name="firstname"><br>
+        Last Name: <br>
+        <input type="text" name="lastname"> <br>
+        Email: <br>
+        <input type="text" name="email"> <br>
+        <br>
+        Jenis Kelamin: <br>
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female">Female <br>
+        <br>
+        Prodi: <br>
+        <select name="prodi">
+            <option value="Teknik Elektro"> Teknik Elektro </option>
+            <option value="Teknik Informatika"> Teknik Informatika </option>
+            <option value="Teknik Mesin"> Teknik Mesin </option>
+            <option value="Teknik Pangan"> Teknik Pangan </option>
+            <option value="Teknik Pertambangan"> Teknik Pertambangan </option>
+        </select>
+        <br>
+        <br>
+        password: <input type="password" name="pwd">
+        <br>
+        <br>
+
+       <input type="submit" value="Submit">
+    </form>
+
+    </div>
+</div>
+</body>
+</html>
